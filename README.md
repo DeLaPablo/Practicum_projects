@@ -14,6 +14,7 @@
 | 4 | [Рынок общепита Москвы](04_eda_moscow_catering_market) | Исследовательский анализ рынка и рекомендации инвесторам по формату и локации заведения | Python, pandas, seaborn, phik |
 | 5 | [Инвестиции в стартапы](05_startup_investment_research) | Выбор отрасли и типа финансирования для венчурной компании | Python, pandas, seaborn |
 | 6 | [Самокаты GoFast: проверка гипотез](06_python_hypothesis_testing_scooters) | Выгодна ли платная подписка: t-тесты и моделирование распределений | Python, pandas, SciPy |
+| 7 | [Доставка еды: метрики и дашборд](07_sql_food_delivery_metrics_dashboard) | DAU, конверсия, средний чек, LTV и Retention сервиса доставки; дашборд с аналитической запиской | SQL, PostgreSQL, DataLens |
 
 ## Структура репозитория
 ```
@@ -23,7 +24,8 @@ Practicum_projects/
 ├── 03_python_video_games_preprocessing/ # тетрадь .ipynb + README
 ├── 04_eda_moscow_catering_market/       # тетрадь .ipynb + README
 ├── 05_startup_investment_research/      # тетрадь .ipynb + README
-└── 06_python_hypothesis_testing_scooters/ # тетрадь .ipynb + README
+├── 06_python_hypothesis_testing_scooters/ # тетрадь .ipynb + README
+└── 07_sql_food_delivery_metrics_dashboard/ # SQL-запросы, дашборд DataLens + README
 ```
 
 ## Контакты

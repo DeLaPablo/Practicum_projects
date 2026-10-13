@@ -2,7 +2,7 @@
 
 Учебные проекты курса «Продуктовый аналитик» Яндекс Практикума. Каждый проект лежит в отдельной папке: в ней README с описанием, выводами и рекомендациями, а также решение — тетрадь Jupyter Notebook или SQL-запросы.
 
-**Стек:** SQL (PostgreSQL), Python (pandas, matplotlib, seaborn, phik, SciPy), Jupyter Notebook, Yandex DataLens.
+**Стек:** SQL (PostgreSQL), Python (pandas, matplotlib, seaborn, phik, SciPy, statsmodels, numpy), Jupyter Notebook, Yandex DataLens.
 
 ## Проекты
 
@@ -15,6 +15,8 @@
 | 5 | [Инвестиции в стартапы](05_startup_investment_research) | Выбор отрасли и типа финансирования для венчурной компании | Python, pandas, seaborn |
 | 6 | [Самокаты GoFast: проверка гипотез](06_python_hypothesis_testing_scooters) | Выгодна ли платная подписка: t-тесты и моделирование распределений | Python, pandas, SciPy |
 | 7 | [Доставка еды: метрики и дашборд](07_sql_food_delivery_metrics_dashboard) | DAU, конверсия, средний чек, LTV и Retention сервиса доставки; дашборд с аналитической запиской | SQL, PostgreSQL, DataLens |
+| 8 | [A/B-тест алгоритма рекомендаций](08_ab_test_recommendations) | Расчёт параметров A/B-теста, мониторинг корректности и оценка результата z-тестом для долей | Python, pandas, statsmodels |
+| 9 | [Яндекс Книги: метрики, гипотеза и A/B-тест](09_yandex_books_ab_test) | SQL-метрики сервиса, проверка гипотезы Москва vs Санкт-Петербург и оценка A/B-теста интерфейса интернет-магазина | SQL, Python, SciPy, statsmodels |
 
 ## Структура репозитория
 ```
@@ -25,7 +27,9 @@ Practicum_projects/
 ├── 04_eda_moscow_catering_market/       # тетрадь .ipynb + README
 ├── 05_startup_investment_research/      # тетрадь .ipynb + README
 ├── 06_python_hypothesis_testing_scooters/ # тетрадь .ipynb + README
-└── 07_sql_food_delivery_metrics_dashboard/ # SQL-запросы, дашборд DataLens + README
+├── 07_sql_food_delivery_metrics_dashboard/ # SQL-запросы, дашборд DataLens + README
+├── 08_ab_test_recommendations/          # тетрадь .ipynb + README
+└── 09_yandex_books_ab_test/             # SQL-запросы, тетрадь .ipynb + README
 ```
 
 ## Контакты
